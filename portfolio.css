@@ -37,17 +37,23 @@ h1 {
 }
 
 
-/*		F O O T E R
-----------------------------------------*/
-
-.footer {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	text-align: center;
-	background-color: #83A3F0;
+#home-text {
+	margin-left: 50px;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#work_dates {
+	list-style-type: none;
+}
+
+
+
+
 
 .fa {
     padding: 20px;
@@ -57,7 +63,7 @@ h1 {
     text-align: center;
     text-decoration: none;
 	border-radius: 50%;
-	float: right;
+	float: left;
 }
 
 
@@ -80,9 +86,38 @@ h1 {
 	background: #fffc00;
 	color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
 }
 
-#smList {
+.fa-linkedin {
+	background: #0077B5;
+	color: white;
+}
+
+.fa-youtube {
+	background: #C31F21;
+	color: white;
+}
+
+.fa-reddit {
+	background: #FF5700;	
+	color: white;
+}
+
+#social_media_list {
+	list-style-type: none;
 	display: inline;
+}
+
+
+
+/*		F O O T E R
+----------------------------------------*/
+
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background-color: #83A3F0;
 }

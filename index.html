@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
 <head>
+<style>
+	.flex-container {
+		justify-content: center;
+  		align-items: center;
+	}
+</style>
 <title>My Portfolio</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="portfolio.css">
@@ -11,7 +17,7 @@
 	<a href="index.html">Home</a>
 	<a href="projects.html">Projects</a>
 	<a href="experience.html">Experience</a>
-	<a href="contact.html">Contacts</a>
+	<a href="contact.html">Contact</a>
 </div>
 
 <div>
@@ -22,8 +28,14 @@
 
 <hr>
 
-<div>
-<img src="profile_pic.jpg" alt="My Picture" style="width: 400px;height: 400px">
+<div class="flex-container">
+	<div><img src="profile_pic.jpg" alt="My Picture" style="width: 400px;height: 400px"></div>
+	<div id="home-text">
+			<p>I grew up in a small hicktown called Perkasie, PA. I love the outdoors, the indoors, and pretty much everything else.</p>
+			<p>I'll play any sport (my favorites are volleyball, basketball, and frisbee), I love videogames, I love my wife, and I love the gospel.</p>
+			<p>I served a mission in the Germany, Berlin mission. My wife served in Taiwan, Teipei. We now both live in Draper.</p>
+			<p>I study Computer Science and German.</p>
+	</div>
 </div>
 
 </body>
