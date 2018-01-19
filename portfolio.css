@@ -3,6 +3,8 @@
 
 body{
 	background-color: #6495ed;
+	margin: 0;
+	padding: 0;
 }
 
 .navbar {
@@ -22,10 +24,26 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
 }
 
 .navbar a:hover {
 	color: cornflowerblue;
+}
+
+.active {
+	background-color: #6495ed;
+}
+
+
+.portfolio_title {
+	padding-left: 20px;
+}
+
+.portfolio_header {
+	padding-left: 40px;
 }
 
 .main {
@@ -36,6 +54,18 @@ h1 {
     margin: 50px 0 0 0;
 }
 
+h2 {
+	margin-left: 40px;
+}
+
+.body_div {
+	margin-left: 65px;
+}
+
+
+dt {
+	padding-top: 20px;
+}
 
 #home-text {
 	margin-left: 50px;
